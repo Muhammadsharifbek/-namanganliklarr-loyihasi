@@ -1,0 +1,298 @@
+body{
+  display: flex;
+  justify-content: center;
+font-family: "Rubik", sans-serif;
+height: 100%;
+padding: 10;
+margin: 0;
+font-size: 16px;
+line-height: 22px;
+color: #4a4b4c;
+background-color:#fff;}
+
+ .header{
+  background-color: #F6F6F6;
+}
+
+.container{
+ width: 1300px;
+}
+
+.header-top{
+  padding: 20px 25px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+margin-bottom: 20px;
+}
+
+.header-img{
+  padding: 10px;
+  background-color:#fff;
+  border-radius:10px;
+}
+
+.header-img2{
+  margin-left: 15px;
+}
+
+.header-p{
+  display:inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-search{
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 50px;
+padding: 1px;
+}
+
+.header-language{
+margin-right: 20px;
+border-radius: 20px;
+}
+
+.header-registrate{
+  text-decoration: none;
+  display: inline-block;
+  border: 10px solid #7296EC ;
+  background-color: #7296EC;
+  border-radius: 10px;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7F7F7F;
+  margin-bottom: 20px;
+}
+
+.navigation-text{
+  margin-left: 10px;
+}
+
+.navigation-text2{
+  margin-right: 10px;
+}
+
+.navigation-reklama{
+  margin-top: 30px;
+}
+
+.body1{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 1px;
+}
+
+
+
+.body{
+width: 380px;
+height: 380px;
+border-radius:  5px;
+display: grid;
+list-style: none;
+background-color:#F6F6F6;
+margin-bottom: 5px;
+}
+
+.body-h1{
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.body-reklama{
+  margin-top: 60px;
+ margin-left: 100px;
+ margin-bottom: 50px;
+}
+
+.tablo{
+  margin-right: 20px;
+font-size: 24px;
+color: #000;
+}
+
+.card-container{
+  display: flex;
+flex-direction: column;
+}
+
+ .card{
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.card-inner{
+  padding: 25px 25px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+display: flex;
+width: 810px;
+}
+
+.card-inner:not(:last-child){
+  margin-bottom:30px;
+}
+
+.card-item-img{
+ margin: auto;
+ margin-right: 10px;
+}
+
+.card-text{
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.card-item-text{
+  font-size: 16px;
+  line-height:  22px;
+  color: #4A4B4C;
+}
+
+.card1{
+display: inline-block;
+width: 180px;
+padding: 3px 343px;
+border-radius:15px;
+background-color:#F6F6F6;
+}
+
+.card2{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+/* SIDEBAR */
+
+.body3-1{
+  display: flex;
+  align-items:flex-start
+}
+
+.sidebar{
+  margin-left: 15px;
+}
+
+.sidebar-card{
+width: 393px;
+height: 552px;
+background-color:#f6f6f6;
+border-radius: 15px;
+}
+
+ .sidebar-card-list:not(:last-child){
+  border-bottom: 1px solid #D2D2D2;
+}
+
+.sidebar-news-card{
+  padding-top: 24px;
+  margin-left: 40px;
+}
+
+.sidebar-card-list{
+  list-style-type: none;
+  }
+
+
+.sidebar-card-link{
+ color:#000000;
+font-size: 18px;
+line-height: 24px;
+text-decoration: none;
+}
+
+.sidebar-source-line{
+   padding-left: 7px;
+  padding-right:20px ;
+  margin-bottom: 10px;
+}
+
+.sidebar-news-line{
+color:#5E5F61;
+}
+
+.sidebar-img{
+border-radius:15px;
+}
+
+/* FOOTER */
+
+.site-footer{
+margin-top: 90px;
+  background-color:#7297EF;
+  width: 1440px;
+  height: 426px;
+}
+
+.footer-div{
+  padding: 21px 83px 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom: 1px solid #CECECE;
+}
+
+.footer-card{
+  text-transform: uppercase;
+  font-size: 14px;
+  color:#fff;
+  padding-top: 40px;
+  margin-left: 90px;
+}
+
+.footer-ul{
+  width: 229px;
+  list-style-type: none;
+}
+
+.footer-li{
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+
+
+.footer-li2{
+  text-decoration: none;
+}
+
+.footer-link{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 39px;
+}
+
+.footer-bottom{
+  padding:  10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom2{
+  color:#fff;
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.footer-socials{
+  display: inline-flex;
+  justify-content: space-between;
+align-items:flex-start;
+list-style-type: none;
+}
+
+.footer-item{
+  margin-left: 20px;
+}
